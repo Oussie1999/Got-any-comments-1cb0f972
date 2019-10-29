@@ -77,6 +77,7 @@ label {
 input {
     margin: .4rem;
 }
+
 label,
 textarea {
     font-size: .8rem;
@@ -84,28 +85,28 @@ textarea {
 }
 textarea {
     padding: 10px;
-    line-height: 10;
+    line-height: 1.5;
     border-radius: 5px;
-    border: 5px solid #ccc;
+    border: 1px solid #ccc;
     box-shadow: 1px 1px 1px #999;
-	width: 400px;
 }
-
-textarea {
-	border: thick double #32a1ce;
-}
-
 
 label {
     display: block;
     margin-bottom: 10px;
 }
 
-.blue-input:focus {
-  background: gray;
-  color: blue;
+textarea {
+  border: 0.5rem outset red;
+  border-radius: 12px;
+  font: bold 1rem sans-serif;
+  margin: 2rem;
+  padding: 1rem;
+  outline-offset: 0.5rem;
 }
-
+textarea:focus {
+  border: 0.5rem outset green
+}
 
 
 
